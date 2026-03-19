@@ -1,5 +1,5 @@
 import '../styles/Head.css';
-import profileImg from '../assets/react.svg';
+import profileImg from '../assets/myprofile.jpeg';
 import resume from '../assets/Yogesh_resume.pdf';
 
 
@@ -14,8 +14,8 @@ const Head = () => {
             Passionate full-stack developer with experience in building scalable web applications using React, Node, MongoDB, and AWS. Let's build something amazing together!
           </p>
           <div className="head-buttons">
-            <a href="https://github.com/YOUR_GITHUB" target="_blank" className="btn">GitHub</a>
-            <a href="https://linkedin.com/in/YOUR_LINKEDIN" target="_blank" className="btn btn-outline">LinkedIn</a>
+            <a href="https://github.com/yogesh-avadhut" target="_blank" className="btn">GitHub</a>
+            <a href="https://www.linkedin.com/in/yogesh-avadhut-7b7007211/" target="_blank" className="btn btn-outline">LinkedIn</a>
             <a href={resume} download className="btn btn-outline">Download Resume</a>
           </div>
         </div>

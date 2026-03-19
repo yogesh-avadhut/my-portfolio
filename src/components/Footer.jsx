@@ -6,10 +6,10 @@ const Footer = () => {
     <footer className="footer">
       <p>© {new Date().getFullYear()} Yogesh Avdhut. All rights reserved.</p>
       <div className="social-links">
-        <a href="https://github.com/yourusername" target="_blank" rel="noreferrer" aria-label="GitHub">
+        <a href="https://github.com/yogesh-avadhut" target="_blank" rel="noreferrer" aria-label="GitHub">
           <FaGithub />
         </a>
-        <a href="https://linkedin.com/in/yourlinkedin" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+        <a href="https://www.linkedin.com/in/yogesh-avadhut-7b7007211/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
           <FaLinkedin />
         </a>
         <a href="mailto:dev.yogeshavadhut@gmail.com" aria-label="Email">

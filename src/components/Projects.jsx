@@ -10,8 +10,8 @@ const projects = [
       'E-commerce site for local store with product catalog, cart, secure login/signup, and admin panel.',
     tech: ['React', 'Node.js', 'MongoDB', 'PrimeReact'],
     image: project1,
-    live: 'https://your-kirana-app.live',
-    github: 'https://github.com/yourusername/kirana-store'
+    live: '#',
+    github: 'https://github.com/yogesh-avadhut'
   },
   {
     title: 'Expense Tracker App',
@@ -19,8 +19,8 @@ const projects = [
       'Track daily expenses with add/edit/delete functionality, MongoDB backend, and clean UI.',
     tech: ['React', 'Express', 'MongoDB', 'PrimeReact'],
     image: project2,
-    live: 'https://your-expense-app.live',
-    github: 'https://github.com/yourusername/expense-tracker'
+    live: '#',
+    github: 'https://github.com/yogesh-avadhut'
   },
   {
     title: 'Cab Booking Clone (Savaari)',
@@ -28,8 +28,8 @@ const projects = [
       'Frontend clone of cab booking app with fare calculation and booking confirmation.',
     tech: ['React', 'HTML', 'CSS', 'JavaScript'],
     image: project3,
-    live: 'https://your-cab-clone.live',
-    github: 'https://github.com/yourusername/cab-clone'
+    live: '#',
+    github: 'https://github.com/yogesh-avadhut'
   }
 ];
 
