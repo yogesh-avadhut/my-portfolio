@@ -1,0 +1,66 @@
+.education {
+    padding: 80px 60px;
+    background: #ffffff;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    color: #1e3c72;
+    margin-bottom: 50px;
+}
+
+.edu-stack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.edu-card {
+    position: relative;
+    background: #f9fafe;
+    border-left: 6px solid #1e3c72;
+    padding: 20px 25px;
+    border-radius: 8px;
+    width: 100%;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.edu-card:hover {
+    transform: translateY(-6px);
+    border-left: 6px solid #ffca28;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.edu-header h3 {
+    color: #1e3c72;
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+.period {
+    display: block;
+    font-size: 0.9rem;
+    color: #777;
+    margin-top: 4px;
+}
+
+.institute {
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.grade {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1e3c72;
+} 
+
+.edu-card:hover .grade {
+    color: #ffca28;
+}
