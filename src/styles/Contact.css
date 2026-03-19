@@ -1,3 +1,5 @@
+
+
 .contact {
   padding: 80px 60px;
   background-color: #f9fafe;
@@ -102,12 +104,79 @@ textarea:focus {
   color: #1e3c72;
 }
 
+/* =================== MOBILE RESPONSIVE =================== */
+@media (max-width: 992px) {
+  .contact {
+    padding: 60px 40px;
+  }
+
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+
+  .contact-info h3 {
+    font-size: 1.4rem;
+  }
+
+  .contact-info p {
+    font-size: 1rem;
+  }
+
+  input,
+  textarea {
+    padding: 12px 15px;
+    font-size: 0.95rem;
+  }
+
+  .btn-primary {
+    padding: 12px 30px;
+    font-size: 1rem;
+  }
+}
+
 @media (max-width: 768px) {
+  .contact {
+    padding: 50px 30px;
+  }
+
   .contact-container {
     flex-direction: column;
+    gap: 30px;
   }
+
   .contact-info,
   form {
     min-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact {
+    padding: 40px 20px;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+
+  .contact-info h3 {
+    font-size: 1.2rem;
+  }
+
+  .contact-info p {
+    font-size: 0.95rem;
+  }
+
+  input,
+  textarea {
+    padding: 10px 12px;
+    font-size: 0.9rem;
+  }
+
+  .btn-primary {
+    padding: 10px 20px;
+    font-size: 0.95rem;
   }
 }

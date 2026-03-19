@@ -1,3 +1,5 @@
+
+
 .experience {
   padding: 80px 60px;
   background-color: #f9fafe;
@@ -81,7 +83,8 @@
   color: #444;
 }
 
-.period, .location {
+.period,
+.location {
   font-size: 0.9rem;
   color: #777;
   font-weight: 500;
@@ -94,18 +97,77 @@
   color: #555;
 }
 
+/* =================== MOBILE RESPONSIVE =================== */
+@media (max-width: 992px) {
+  .experience {
+    padding: 60px 40px;
+  }
+
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+
+  .content h3 {
+    font-size: 1.2rem;
+  }
+
+  .content h4 {
+    font-size: 1.05rem;
+  }
+
+  .period,
+  .location {
+    font-size: 0.85rem;
+  }
+
+  .content p {
+    font-size: 0.95rem;
+  }
+}
+
 @media (max-width: 768px) {
   .timeline::before {
     left: 10px;
   }
+
   .timeline-item {
     width: 90%;
     left: 0 !important;
     transform: translateX(0);
     margin-left: 30px;
   }
+
   .timeline-item::after {
     left: 0 !important;
     right: auto !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .experience {
+    padding: 40px 20px;
+  }
+
+  .timeline-item {
+    margin-left: 20px;
+    padding: 15px 18px;
+  }
+
+  .content h3 {
+    font-size: 1rem;
+  }
+
+  .content h4 {
+    font-size: 0.95rem;
+  }
+
+  .period,
+  .location {
+    font-size: 0.8rem;
+  }
+
+  .content p {
+    font-size: 0.9rem;
   }
 }

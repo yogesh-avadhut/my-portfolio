@@ -1,3 +1,4 @@
+
 .head {
   padding: 60px 80px;
   background: linear-gradient(to bottom right, #f5f7fa, #c3cfe2);
@@ -93,4 +94,103 @@
 
 .head-image img:hover {
   transform: scale(1.05);
+}
+
+/* =================== MOBILE RESPONSIVE =================== */
+@media (max-width: 992px) {
+  .head {
+    padding: 50px 40px;
+  }
+
+  .head-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .head-text h2 {
+    font-size: 1.3rem;
+  }
+
+  .head-text p {
+    font-size: 0.95rem;
+  }
+
+  .head-buttons {
+    gap: 12px;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 0.95rem;
+  }
+
+  .btn-outline {
+    padding: 10px 20px;
+    font-size: 0.95rem;
+  }
+
+  .head-image img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .head {
+    padding: 40px 30px;
+  }
+
+  .head-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .head-text h1 {
+    font-size: 2rem;
+  }
+
+  .head-text h2 {
+    font-size: 1.2rem;
+  }
+
+  .head-text p {
+    font-size: 0.9rem;
+  }
+
+  .head-image img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .head {
+    padding: 30px 20px;
+  }
+
+  .head-text h1 {
+    font-size: 1.6rem;
+  }
+
+  .head-text h2 {
+    font-size: 1rem;
+  }
+
+  .head-text p {
+    font-size: 0.85rem;
+  }
+
+  .head-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .btn, .btn-outline {
+    padding: 8px 18px;
+    font-size: 0.85rem;
+  }
+
+  .head-image img {
+    width: 150px;
+    height: 150px;
+  }
 }

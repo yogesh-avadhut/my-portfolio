@@ -1,3 +1,4 @@
+
 .projects {
   padding: 80px 60px;
   background-color: #ffffff;
@@ -71,6 +72,7 @@
 .project-buttons {
   display: flex;
   gap: 10px;
+  flex-wrap: wrap;
 }
 
 .btn {
@@ -97,4 +99,77 @@
 .btn-outline:hover {
   background-color: #1e3c72;
   color: white;
+}
+
+/* =================== MOBILE RESPONSIVE =================== */
+@media (max-width: 992px) {
+  .projects {
+    padding: 60px 40px;
+  }
+
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+
+  .project-info h3 {
+    font-size: 1.2rem;
+  }
+
+  .project-info p {
+    font-size: 0.9rem;
+  }
+
+  .tech-stack span {
+    font-size: 0.75rem;
+    padding: 3px 8px;
+  }
+
+  .btn, .btn-outline {
+    font-size: 0.85rem;
+    padding: 8px 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .projects {
+    padding: 50px 30px;
+  }
+
+  .projects-grid {
+    gap: 25px;
+  }
+
+  .project-card {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .projects {
+    padding: 40px 20px;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+  }
+
+  .project-info h3 {
+    font-size: 1.1rem;
+  }
+
+  .project-info p {
+    font-size: 0.85rem;
+  }
+
+  .tech-stack span {
+    font-size: 0.7rem;
+    padding: 2px 6px;
+  }
+
+  .btn, .btn-outline {
+    font-size: 0.8rem;
+    padding: 6px 15px;
+  }
 }

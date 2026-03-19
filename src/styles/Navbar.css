@@ -1,3 +1,4 @@
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -44,4 +45,65 @@
 .social-icons a:hover {
   transform: scale(1.2);
   color: #ffca28;
+}
+
+/* =================== HAMBURGER ICON =================== */
+.hamburger {
+  display: none;
+  cursor: pointer;
+  font-size: 1.8rem;
+  color: white;
+}
+
+/* =================== MOBILE RESPONSIVE =================== */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    position: absolute;
+    top: 60px; /* below navbar */
+    left: 0;
+    padding: 20px;
+    gap: 15px;
+    border-radius: 0 0 12px 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .social-icons {
+    order: 2; /* optional: below logo */
+  }
+
+  .nav-links a {
+    font-size: 1rem;
+  }
+}
+
+/* =================== SMALLER MOBILE =================== */
+@media (max-width: 480px) {
+  .hamburger {
+    font-size: 1.5rem;
+  }
+
+  .navbar {
+    padding: 10px 20px;
+  }
+
+  .nav-links a {
+    font-size: 0.9rem;
+  }
+
+  .social-icons a {
+    font-size: 0.9rem;
+    margin-left: 10px;
+  }
 }

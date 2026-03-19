@@ -1,3 +1,5 @@
+
+
 .skills {
   padding: 80px 60px;
   background-color: #f9fafe;
@@ -41,4 +43,69 @@
   margin: 0;
   font-weight: 500;
   color: #333;
+}
+
+/* =================== MOBILE RESPONSIVE =================== */
+@media (max-width: 992px) {
+  .skills {
+    padding: 60px 40px;
+  }
+
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 35px;
+  }
+
+  .skill-card .icon {
+    font-size: 2.2rem;
+  }
+
+  .skill-card p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .skills {
+    padding: 50px 30px;
+  }
+
+  .skills-grid {
+    gap: 20px;
+  }
+
+  .skill-card {
+    padding: 20px 12px;
+  }
+
+  .skill-card .icon {
+    font-size: 2rem;
+  }
+
+  .skill-card p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .skills {
+    padding: 40px 20px;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+  }
+
+  .skill-card {
+    padding: 15px 10px;
+  }
+
+  .skill-card .icon {
+    font-size: 1.8rem;
+  }
+
+  .skill-card p {
+    font-size: 0.85rem;
+  }
 }

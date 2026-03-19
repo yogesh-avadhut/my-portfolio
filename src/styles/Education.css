@@ -1,3 +1,5 @@
+
+
 .education {
     padding: 80px 60px;
     background: #ffffff;
@@ -63,4 +65,81 @@
 
 .edu-card:hover .grade {
     color: #ffca28;
+}
+
+/* =================== MOBILE RESPONSIVE =================== */
+@media (max-width: 992px) {
+    .education {
+        padding: 60px 40px;
+    }
+
+    .section-title {
+        font-size: 2rem;
+        margin-bottom: 40px;
+    }
+
+    .edu-header h3 {
+        font-size: 1.2rem;
+    }
+
+    .period {
+        font-size: 0.85rem;
+    }
+
+    .institute {
+        font-size: 0.95rem;
+    }
+
+    .grade {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .education {
+        padding: 50px 30px;
+    }
+
+    .edu-stack {
+        gap: 20px;
+    }
+
+    .edu-card {
+        padding: 18px 20px;
+    }
+
+    .edu-header h3 {
+        font-size: 1.1rem;
+    }
+
+    .period,
+    .institute,
+    .grade {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .education {
+        padding: 40px 20px;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+        margin-bottom: 30px;
+    }
+
+    .edu-card {
+        padding: 15px 18px;
+    }
+
+    .edu-header h3 {
+        font-size: 1rem;
+    }
+
+    .period,
+    .institute,
+    .grade {
+        font-size: 0.85rem;
+    }
 }
