@@ -1,0 +1,160 @@
+/* =================== SECTION =================== */
+.certificates {
+  padding: 80px 60px;
+  background: #ffffff;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: #1e3c72;
+  margin-bottom: 50px;
+}
+
+/* =================== SCROLL =================== */
+.scroll-container {
+  display: flex;
+  gap: 25px;
+  overflow-x: auto;
+  padding: 10px;
+  scroll-behavior: smooth;
+
+  scrollbar-width: none; /* firefox */
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none; /* chrome */
+}
+
+/* =================== CARD =================== */
+.certificate-card {
+  min-width: 260px;
+  flex: 0 0 auto;
+
+  background: #f9fafe;
+  border: 1px solid #1e3c72;
+  border-radius: 8px;
+  padding: 15px;
+
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
+
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* HOVER SAME AS EDUCATION */
+.certificate-card:hover {
+  transform: translateY(-6px);
+  border-left: 6px solid #ffca28;
+  border-right: 6px solid #ffca28;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* =================== IMAGE =================== */
+.certificate-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* =================== TITLE =================== */
+.certificate-card h3 {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #1e3c72;
+  font-weight: 600;
+}
+
+/* hover text color */
+.certificate-card:hover h3 {
+  color: #ffca28;
+}
+
+/* =================== MODAL =================== */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(30, 60, 114, 0.95);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.modal img {
+  max-width: 85%;
+  max-height: 85%;
+  border-radius: 10px;
+  border: 2px solid #ffca28;
+}
+
+/* =================== RESPONSIVE =================== */
+@media (max-width: 992px) {
+  .certificates {
+    padding: 60px 40px;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .certificates {
+    padding: 50px 30px;
+  }
+
+  .certificate-card {
+    min-width: 220px;
+  }
+}
+
+@media (max-width: 480px) {
+  .certificates {
+    padding: 40px 20px;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .certificate-card {
+    min-width: 180px;
+  }
+
+  .certificate-card img {
+    height: 120px;
+  }
+}
+
+
+/* =================== WRAPPER =================== */
+.carousel-wrapper {
+  position: relative;
+}
+
+/* =================== FADE EFFECT =================== */
+.fade {
+  position: absolute;
+  top: 0;
+  width: 50px;
+  height: 100%;
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* LEFT FADE */
+.fade.left {
+  left: 0;
+  background: linear-gradient(to right, #1e3c72, transparent);
+}
+
+/* RIGHT FADE */
+.fade.right {
+  right: 0;
+  background: linear-gradient(to left,#1e3c72, transparent);
+}

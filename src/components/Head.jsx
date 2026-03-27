@@ -1,6 +1,6 @@
 import '../styles/Head.css';
 import profileImg from '../assets/myprofile.jpeg';
-import resume from '../assets/Yogesh_resume.pdf';
+import resume from '../assets/yogesh_avadhut_mca.pdf';
 
 
 const Head = () => {

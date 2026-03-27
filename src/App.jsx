@@ -11,6 +11,7 @@ import Experience from './components/Experience.jsx'
 import Contact from './components/Contact.jsx'
 import Footer from './components/Footer.jsx'
 import Education from './components/Education.jsx'
+import Certificates from './components/Certificates.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,6 +25,7 @@ function App() {
      <Projects />
      <Experience />
      <Education />
+     <Certificates/>
      <Contact />
      <Footer/>
 
