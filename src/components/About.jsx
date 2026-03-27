@@ -16,7 +16,7 @@ const About = () => {
           </div>
           <div className="about-card">
             <h3>🧑‍💻 Experience</h3>
-            <p>2+ years in AWS & MERN Development</p>
+            <p>1 year in MERN Development</p>
           </div>
           <div className="about-card">
             <h3>🚀 Passion</h3>
